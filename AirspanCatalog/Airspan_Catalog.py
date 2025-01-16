@@ -12,7 +12,7 @@ def reset_app():
 # 1) Load your master catalog
 # -------------------------------------------------------------------
 df = pd.read_excel(
-    "AirspanCatalog/Airspan_Catalog.xlsx",
+    "../Airspan_Catalog.xlsx",
     sheet_name="Catalog",
     engine="openpyxl"
 )
